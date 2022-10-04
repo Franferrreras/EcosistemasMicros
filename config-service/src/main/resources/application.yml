@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: eureka
+          default-label: master
           uri: https://github.com/Franferrreras/EcosistemasMicros.git
           search-paths: config-data
   application:

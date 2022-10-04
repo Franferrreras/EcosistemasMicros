@@ -21,8 +21,8 @@ spring:
 #    fetchRegistry: false
 #    serviceUrl:
 #      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
-#management:
-#  endpoints:
-#    web:
-#      exposure:
-#        include: "*"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
